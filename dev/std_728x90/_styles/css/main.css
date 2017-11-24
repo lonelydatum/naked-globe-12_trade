@@ -159,16 +159,12 @@ sup {
   font-family: reg;
 }
 
-.frame2 {
-  opacity: 1;
-}
-
 #banner {
   font-size: 20px;
   color: #333;
   width: 728px;
   height: 90px;
-  color: red;
+  color: black;
   font-family: bold;
 }
 
@@ -204,24 +200,13 @@ sup {
   font-family: reg;
   font-size: 30px;
   word-spacing: 1px;
-  letter-spacing: 5.6px;
+  letter-spacing: 6.8px;
 }
 
 .t2.a {
-  -webkit-transform: translate(12px, 93px);
-  -ms-transform: translate(12px, 93px);
-  transform: translate(12px, 93px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
-.t2.b {
-  -webkit-transform: translate(63px, 128px);
-  -ms-transform: translate(63px, 128px);
-  transform: translate(63px, 128px);
+  -webkit-transform: translate(137px, 32px);
+  -ms-transform: translate(137px, 32px);
+  transform: translate(137px, 32px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -230,66 +215,65 @@ sup {
 }
 
 .frame3 .desktop {
-  -webkit-transform: translate(59px, 31px);
-  -ms-transform: translate(59px, 31px);
-  transform: translate(59px, 31px);
+  -webkit-transform: translate(96px, 5px);
+  -ms-transform: translate(96px, 5px);
+  transform: translate(96px, 5px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 192px;
+  width: 86px;
 }
 
 .frame3 .phone {
-  -webkit-transform: translate(93px, 20px);
-  -ms-transform: translate(93px, 20px);
-  transform: translate(93px, 20px);
+  -webkit-transform: translate(248px, 10px);
+  -ms-transform: translate(248px, 10px);
+  transform: translate(248px, 10px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 109px;
+  width: 40px;
 }
 
 .frame3 .tablet {
-  -webkit-transform: translate(96px, 12px);
-  -ms-transform: translate(96px, 12px);
-  transform: translate(96px, 12px);
+  -webkit-transform: translate(382px, 12px);
+  -ms-transform: translate(382px, 12px);
+  transform: translate(382px, 12px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 124px;
+  width: 41px;
 }
 
 .frame3 .news {
-  -webkit-transform: translate(91px, 12px);
-  -ms-transform: translate(91px, 12px);
-  transform: translate(91px, 12px);
+  -webkit-transform: translate(515px, 2px);
+  -ms-transform: translate(515px, 2px);
+  transform: translate(515px, 2px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 112px;
+  width: 98px;
 }
 
 .frame4 .t4 {
   font-family: reg;
-  width: 122px;
   text-align: center;
   line-height: 21px;
-  font-size: 20px;
-  letter-spacing: 2.7px;
+  font-size: 15px;
+  letter-spacing: 2.3px;
 }
 
 .frame4 .t4.a {
-  -webkit-transform: translate(94px, 16px);
-  -ms-transform: translate(94px, 16px);
-  transform: translate(94px, 16px);
+  -webkit-transform: translate(8px, 37px);
+  -ms-transform: translate(8px, 37px);
+  transform: translate(8px, 37px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -298,40 +282,38 @@ sup {
 }
 
 .frame4 .t4.b {
-  -webkit-transform: translate(80px, 103px);
-  -ms-transform: translate(80px, 103px);
-  transform: translate(80px, 103px);
+  -webkit-transform: translate(267px, 37px);
+  -ms-transform: translate(267px, 37px);
+  transform: translate(267px, 37px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 150px;
 }
 
 .frame4 .t4.c {
-  -webkit-transform: translate(80px, 167px);
-  -ms-transform: translate(80px, 167px);
-  transform: translate(80px, 167px);
+  -webkit-transform: translate(465px, 37px);
+  -ms-transform: translate(465px, 37px);
+  transform: translate(465px, 37px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 150px;
 }
 
 .frame4 .dot {
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
   border-radius: 50%;
   background-color: red;
 }
 
 .frame4 .dot.dot1 {
-  -webkit-transform: translate(155px, 88px);
-  -ms-transform: translate(155px, 88px);
-  transform: translate(155px, 88px);
+  -webkit-transform: translate(254px, 45px);
+  -ms-transform: translate(254px, 45px);
+  transform: translate(254px, 45px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -340,9 +322,9 @@ sup {
 }
 
 .frame4 .dot.dot2 {
-  -webkit-transform: translate(155px, 154px);
-  -ms-transform: translate(155px, 154px);
-  transform: translate(155px, 154px);
+  -webkit-transform: translate(453px, 45px);
+  -ms-transform: translate(453px, 45px);
+  transform: translate(453px, 45px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -351,10 +333,10 @@ sup {
 }
 
 .frame5 #logo {
-  width: 38px;
-  -webkit-transform: translate(214px, 45px);
-  -ms-transform: translate(214px, 45px);
-  transform: translate(214px, 45px);
+  width: 160px;
+  -webkit-transform: translate(551px, 15px);
+  -ms-transform: translate(551px, 15px);
+  transform: translate(551px, 15px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -363,9 +345,9 @@ sup {
 }
 
 .frame5 #cta {
-  -webkit-transform: translate(32px, 44px);
-  -ms-transform: translate(32px, 44px);
-  transform: translate(32px, 44px);
+  -webkit-transform: translate(48px, 16px);
+  -ms-transform: translate(48px, 16px);
+  transform: translate(48px, 16px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -373,34 +355,33 @@ sup {
   position: absolute;
   background-color: black;
   color: white;
-  letter-spacing: 2.5px;
-  font-size: 18px;
-  padding: 4px 20px;
+  letter-spacing: 4px;
+  font-size: 26px;
+  padding: 4px 13px;
   padding-top: 7px;
   font-family: bold;
 }
 
 .frame5 #tag {
-  -webkit-transform: translate(22px, 77px);
-  -ms-transform: translate(22px, 77px);
-  transform: translate(22px, 77px);
+  -webkit-transform: translate(29px, 61px);
+  -ms-transform: translate(29px, 61px);
+  transform: translate(29px, 61px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
   color: black;
-  font-size: 16px;
-  letter-spacing: 1.8px;
+  font-size: 13px;
+  letter-spacing: 2.1px;
   line-height: 16px;
-  width: 164px;
   text-align: center;
 }
 
 .frame5 #triangles {
-  -webkit-transform: translate(0px, 151px);
-  -ms-transform: translate(0px, 151px);
-  transform: translate(0px, 151px);
+  -webkit-transform: translate(219px, 16px);
+  -ms-transform: translate(219px, 16px);
+  transform: translate(219px, 16px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -409,51 +390,51 @@ sup {
 }
 
 .frame5 .desktop {
-  -webkit-transform: translate(71px, 162px);
-  -ms-transform: translate(71px, 162px);
-  transform: translate(71px, 162px);
+  -webkit-transform: translate(317px, 12px);
+  -ms-transform: translate(317px, 12px);
+  transform: translate(317px, 12px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 85px;
+  width: 74px;
 }
 
 .frame5 .phone {
-  -webkit-transform: translate(142px, 204px);
-  -ms-transform: translate(142px, 204px);
-  transform: translate(142px, 204px);
+  -webkit-transform: translate(377px, 45px);
+  -ms-transform: translate(377px, 45px);
+  transform: translate(377px, 45px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 22px;
+  width: 19px;
 }
 
 .frame5 .tablet {
-  -webkit-transform: translate(59px, 188px);
-  -ms-transform: translate(59px, 188px);
-  transform: translate(59px, 188px);
+  -webkit-transform: translate(305px, 30px);
+  -ms-transform: translate(305px, 30px);
+  transform: translate(305px, 30px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 37px;
+  width: 29px;
 }
 
 .frame5 .news {
-  -webkit-transform: translate(158px, 133px);
-  -ms-transform: translate(158px, 133px);
-  transform: translate(158px, 133px);
+  -webkit-transform: translate(385px, 8px);
+  -ms-transform: translate(385px, 8px);
+  transform: translate(385px, 8px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 67px;
+  width: 58px;
 }
 
 /*# sourceMappingURL=main.css.map */

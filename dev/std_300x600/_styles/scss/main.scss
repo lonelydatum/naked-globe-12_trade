@@ -4,7 +4,7 @@
 
 
 
-.frame5 {
+.frame4 {
 	// opacity: 1;
 }
 
@@ -113,11 +113,11 @@
 		
 	}
 	.dot.dot1{
-		@include pos(149, 195+$y);
+		@include pos(146, 195+$y);
 	}
 
 	.dot.dot2{
-		@include pos(149, 286+$y);
+		@include pos(146, 286+$y);
 	}
 }
 

@@ -345,9 +345,9 @@ sup {
 }
 
 .frame4 .dot.dot1 {
-  -webkit-transform: translate(149px, 245px);
-  -ms-transform: translate(149px, 245px);
-  transform: translate(149px, 245px);
+  -webkit-transform: translate(146px, 245px);
+  -ms-transform: translate(146px, 245px);
+  transform: translate(146px, 245px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -356,9 +356,9 @@ sup {
 }
 
 .frame4 .dot.dot2 {
-  -webkit-transform: translate(149px, 336px);
-  -ms-transform: translate(149px, 336px);
-  transform: translate(149px, 336px);
+  -webkit-transform: translate(146px, 336px);
+  -ms-transform: translate(146px, 336px);
+  transform: translate(146px, 336px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
