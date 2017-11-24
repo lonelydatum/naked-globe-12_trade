@@ -26,8 +26,8 @@ function start() {
     var medium = .3;
     tl.add('f3');
     tl.set('.frame3', { opacity: 1 });
-    tl.from('.frame3 .desktop', .3, { opacity: 0 });
-    tl.to('.frame3 .desktop', .2, { opacity: 0 }, '+=' + medium);
+    tl.from('.frame3 .desktop', .5, { opacity: 0, x: "-=80", ease: Power2.easeOut });
+    tl.to('.frame3 .desktop', .2, { opacity: 0 }, '+=' + (medium + .15));
     tl.from('.frame3 .phone', .3, { opacity: 0 });
     tl.to('.frame3 .phone', .2, { opacity: 0 }, '+=' + medium);
     tl.from('.frame3 .tablet', .3, { opacity: 0 });
@@ -55,7 +55,7 @@ function start() {
     tl.add('branding');
     tl.from('.branding', .4, { opacity: 0, y: '+=20', ease: Power2.easeOut }, '+=.35');
 
-    // tl.gotoAndPlay('f3')
+    // tl.gotoAndPlay('f2')
 }
 
 exports['default'] = start;
