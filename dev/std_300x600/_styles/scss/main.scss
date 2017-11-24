@@ -1,0 +1,172 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame5 {
+	// opacity: 1;
+}
+
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 300px;
+	height: 600px;
+	color:black;
+	font-family: bold;
+}
+
+
+
+.t1{
+	font-size: 30px;
+	word-spacing: 1px;
+	letter-spacing: 5.6px;	
+	
+	$y:175;
+	&.a{
+		@include pos(45, 52+$y);
+	}
+	&.b{
+		@include pos(27, 87+$y);
+	}
+	&.c{
+		@include pos(106, 121+$y);
+	}
+	&.d{
+		@include pos(45, 155+$y);
+	}
+}
+
+
+
+.t2{
+	font-family: reg;	
+	font-size: 34px;
+	word-spacing: 1px;
+	letter-spacing: 5.6px;
+	line-height: 38px;
+	// color: red;
+	$y:50;
+	&.a{
+		@include pos(28, 170+$y);		
+		text-align: center;
+	}
+	&.b{
+		@include pos(63, 246+$y);		
+	}
+}
+
+
+.frame3 {	
+	$y:50;
+	.desktop{
+		@include pos(33, 116+$y);		
+	}
+	.phone{
+		@include pos(65, 76+$y);		
+	}
+	.tablet{
+		@include pos(56, 78+$y);				
+	}
+	.news{
+		@include pos(60, 55+$y);				
+	}
+}
+
+
+.frame4{
+	$y:50;
+	.t4{
+		
+		font-family: reg;
+		width: 222px;
+		text-align: center;
+		line-height: 30px;
+		font-size: 25px;
+		letter-spacing: 6.1px;
+		// color: red;
+		
+		&.a{
+			@include pos(40,91+$y);
+		}
+		&.b{
+			@include pos(22,213+$y);
+			width: 260px;
+		}
+		&.c{
+			@include pos(32,305+$y);
+			width: 240px;
+		}
+		
+	}
+
+	.dot{
+		width: 7px;
+		height: 7px;
+		border-radius: 50%;
+		background-color: red;
+		
+		
+	}
+	.dot.dot1{
+		@include pos(149, 195+$y);
+	}
+
+	.dot.dot2{
+		@include pos(149, 286+$y);
+	}
+}
+
+
+.frame5{
+	$y:100;
+	#logo{
+		width: 126px;
+		@include pos(87, 158+$y);		
+	}
+	#cta{
+		@include pos(68, 52+$y);
+		background-color: black;
+		// border: 1px solid green;
+		color: white;
+		letter-spacing: 4.1px;		
+		font-size: 20px;
+		padding: 2px 27px;
+		padding-top: 7px;
+		font-family: bold;
+	}
+	#tag{
+		@include pos(56, 91+$y);
+		color: black;
+		font-size: 20px;
+		letter-spacing: 2.7px;
+		line-height: 22px;
+		width: 194px;		
+		text-align: center;
+	}
+
+	#triangles{
+		@include pos(0, 311+$y);		
+	}
+
+	.desktop{
+		@include pos(28, 319+$y);		
+		width: 134px;
+	}
+	.phone{
+		@include pos(131, 396+$y);		
+		width: 41px;
+	}
+	.tablet{
+		@include pos(20, 372+$y);		
+		width: 56px;
+	}
+	.news{
+		@include pos(158, 226+$y);		
+		width: 128px;
+	}
+}

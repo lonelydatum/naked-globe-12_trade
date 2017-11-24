@@ -70,7 +70,7 @@ var _commonJsGlobe = require('../../_common/js/globe');
 
 var _commonJsGlobe2 = _interopRequireDefault(_commonJsGlobe);
 
-(0, _commonJsGlobe2['default'])(.5);
+(0, _commonJsGlobe2['default'])(.8);
 
 },{"../../_common/js/globe":1}]},{},[2])
 

@@ -1,36 +1,39 @@
+
+
 @import '../../../_common/styles/common.scss';
 
-.frame4 {
-	// opacity: 1;
+
+
+.frame2 {
+	opacity: 1;
 }
+
+
 
 #banner{
 	font-size: 20px;
 	color: #333;
-	width: 300px;
-	height: 250px;
-	color:black;
+	width: 728px;
+	height: 90px;
+	color:red;
 	font-family: bold;
 }
+
 
 
 .t1{
 	font-size: 30px;
 	word-spacing: 1px;
-	letter-spacing: 5.6px;	
+	letter-spacing: 7.1px;	
 	&.a{
-		@include pos(45, 52);
+		@include pos(127, 15);
 	}
 	&.b{
-		@include pos(27, 87);
-	}
-	&.c{
-		@include pos(106, 121);
-	}
-	&.d{
-		@include pos(45, 155);
-	}
+		@include pos(209, 51);
+	}	
 }
+
+
 
 .t2{
 	font-family: reg;	
@@ -44,6 +47,7 @@
 		@include pos(63, 128);		
 	}
 }
+
 
 .frame3 {	
 	.desktop{
@@ -64,8 +68,10 @@
 	}
 }
 
+
 .frame4{
-	.t4{		
+	.t4{
+		
 		font-family: reg;
 		width: 122px;
 		text-align: center;
@@ -73,17 +79,17 @@
 		font-size: 20px;
 		letter-spacing: 2.7px;
 		&.a{
-			@include pos(0,16);
-			width: 100%;
+			@include pos(94,16);
 		}
 		&.b{
-			@include pos(0,103);
-			width: 100%;
+			@include pos(80,103);
+			width: 150px;
 		}
 		&.c{
-			@include pos(0,167);
-			width: 100%;
-		}		
+			@include pos(80,167);
+			width: 150px;
+		}
+		
 	}
 
 	.dot{
@@ -91,13 +97,15 @@
 		height: 6px;
 		border-radius: 50%;
 		background-color: red;
+		
+		
 	}
 	.dot.dot1{
-		@include pos(147, 88);
+		@include pos(155, 88);
 	}
 
 	.dot.dot2{
-		@include pos(147, 154);
+		@include pos(155, 154);
 	}
 }
 

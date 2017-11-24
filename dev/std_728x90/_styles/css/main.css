@@ -159,25 +159,29 @@ sup {
   font-family: reg;
 }
 
+.frame2 {
+  opacity: 1;
+}
+
 #banner {
   font-size: 20px;
   color: #333;
-  width: 300px;
-  height: 250px;
-  color: black;
+  width: 728px;
+  height: 90px;
+  color: red;
   font-family: bold;
 }
 
 .t1 {
   font-size: 30px;
   word-spacing: 1px;
-  letter-spacing: 5.6px;
+  letter-spacing: 7.1px;
 }
 
 .t1.a {
-  -webkit-transform: translate(45px, 52px);
-  -ms-transform: translate(45px, 52px);
-  transform: translate(45px, 52px);
+  -webkit-transform: translate(127px, 15px);
+  -ms-transform: translate(127px, 15px);
+  transform: translate(127px, 15px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -186,31 +190,9 @@ sup {
 }
 
 .t1.b {
-  -webkit-transform: translate(27px, 87px);
-  -ms-transform: translate(27px, 87px);
-  transform: translate(27px, 87px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
-.t1.c {
-  -webkit-transform: translate(106px, 121px);
-  -ms-transform: translate(106px, 121px);
-  transform: translate(106px, 121px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
-.t1.d {
-  -webkit-transform: translate(45px, 155px);
-  -ms-transform: translate(45px, 155px);
-  transform: translate(45px, 155px);
+  -webkit-transform: translate(209px, 51px);
+  -ms-transform: translate(209px, 51px);
+  transform: translate(209px, 51px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -305,39 +287,38 @@ sup {
 }
 
 .frame4 .t4.a {
-  -webkit-transform: translate(0px, 16px);
-  -ms-transform: translate(0px, 16px);
-  transform: translate(0px, 16px);
+  -webkit-transform: translate(94px, 16px);
+  -ms-transform: translate(94px, 16px);
+  transform: translate(94px, 16px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 100%;
 }
 
 .frame4 .t4.b {
-  -webkit-transform: translate(0px, 103px);
-  -ms-transform: translate(0px, 103px);
-  transform: translate(0px, 103px);
+  -webkit-transform: translate(80px, 103px);
+  -ms-transform: translate(80px, 103px);
+  transform: translate(80px, 103px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 100%;
+  width: 150px;
 }
 
 .frame4 .t4.c {
-  -webkit-transform: translate(0px, 167px);
-  -ms-transform: translate(0px, 167px);
-  transform: translate(0px, 167px);
+  -webkit-transform: translate(80px, 167px);
+  -ms-transform: translate(80px, 167px);
+  transform: translate(80px, 167px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 100%;
+  width: 150px;
 }
 
 .frame4 .dot {
@@ -348,9 +329,9 @@ sup {
 }
 
 .frame4 .dot.dot1 {
-  -webkit-transform: translate(147px, 88px);
-  -ms-transform: translate(147px, 88px);
-  transform: translate(147px, 88px);
+  -webkit-transform: translate(155px, 88px);
+  -ms-transform: translate(155px, 88px);
+  transform: translate(155px, 88px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -359,9 +340,9 @@ sup {
 }
 
 .frame4 .dot.dot2 {
-  -webkit-transform: translate(147px, 154px);
-  -ms-transform: translate(147px, 154px);
-  transform: translate(147px, 154px);
+  -webkit-transform: translate(155px, 154px);
+  -ms-transform: translate(155px, 154px);
+  transform: translate(155px, 154px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
