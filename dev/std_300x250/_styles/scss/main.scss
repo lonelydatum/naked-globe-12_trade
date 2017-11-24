@@ -4,8 +4,8 @@
 
 
 
-.frame1 {
-	opacity: 1;
+.frame5 {
+	// opacity: 1;
 }
 
 
@@ -15,12 +15,150 @@
 	color: #333;
 	width: 300px;
 	height: 250px;
+	color:black;
+	font-family: bold;
 }
 
 
+
 .t1{
-	opacity: .8;
-	position: absolute;
-	top: 45px;
-	left: 45px;
+	font-size: 30px;
+	word-spacing: 1px;
+	letter-spacing: 5.6px;	
+	&.a{
+		@include pos(45, 52);
+	}
+	&.b{
+		@include pos(27, 87);
+	}
+	&.c{
+		@include pos(106, 121);
+	}
+	&.d{
+		@include pos(45, 155);
+	}
+}
+
+
+
+.t2{
+	font-family: reg;	
+	font-size: 30px;
+	word-spacing: 1px;
+	letter-spacing: 5.6px;
+	&.a{
+		@include pos(12, 93);		
+	}
+	&.b{
+		@include pos(63, 128);		
+	}
+}
+
+
+.frame3 {	
+	.desktop{
+		@include pos(59, 31);		
+		width: 192px;
+	}
+	.phone{
+		@include pos(93, 20);		
+		width: 109px;
+	}
+	.tablet{
+		@include pos(96, 12);		
+		width: 124px;
+	}
+	.news{
+		@include pos(91, 12);		
+		width: 112px;
+	}
+}
+
+
+.frame4{
+	.t4{
+		
+		font-family: reg;
+		width: 122px;
+		text-align: center;
+		line-height: 21px;
+		font-size: 20px;
+		letter-spacing: 2.7px;
+		&.a{
+			@include pos(94,16);
+		}
+		&.b{
+			@include pos(80,103);
+			width: 150px;
+		}
+		&.c{
+			@include pos(80,167);
+			width: 150px;
+		}
+		
+	}
+
+	.dot{
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background-color: red;
+		
+		
+	}
+	.dot.dot1{
+		@include pos(155, 88);
+	}
+
+	.dot.dot2{
+		@include pos(155, 154);
+	}
+}
+
+
+.frame5{
+	#logo{
+		width: 38px;
+		@include pos(214, 45);		
+	}
+	#cta{
+		@include pos(32, 44);
+		background-color: black;
+		color: white;
+		letter-spacing: 2.5px;		
+		font-size: 18px;
+		padding: 4px 20px;
+		padding-top: 7px;
+		font-family: bold;
+	}
+	#tag{
+		@include pos(22, 77);
+		color: black;
+		font-size: 16px;
+		letter-spacing: 1.8px;
+		line-height: 16px;
+		width: 164px;
+		text-align: center;
+	}
+
+	#triangles{
+		@include pos(0, 151);		
+	}
+
+	.desktop{
+		@include pos(71, 162);		
+		width: 85px;
+	}
+	.phone{
+		@include pos(142, 204);		
+		width: 22px;
+	}
+	.tablet{
+		@include pos(59, 188);		
+		width: 37px;
+	}
+	.news{
+		@include pos(158, 133);		
+		width: 67px;
+	}
 }

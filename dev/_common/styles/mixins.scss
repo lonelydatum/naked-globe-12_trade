@@ -15,7 +15,7 @@ $property: transform;
 }
 
 @mixin pos($x, $y) {  
-    @include prefix( translate($x + px,$y + px, 0) );
+    @include prefix( translate($x + px,$y + px) );
     backface-visibility: hidden;
     perspective: 1000px;
     position: absolute;
