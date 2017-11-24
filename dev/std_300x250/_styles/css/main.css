@@ -392,9 +392,9 @@ sup {
   position: absolute;
   background-color: black;
   color: white;
-  letter-spacing: 2.5px;
-  font-size: 18px;
-  padding: 4px 20px;
+  letter-spacing: 3.3px;
+  font-size: 17px;
+  padding: 4px 24px;
   padding-top: 7px;
   font-family: bold;
 }

@@ -1,6 +1,6 @@
 @import '../../../_common/styles/common.scss';
 
-.frame4 {
+.frame5 {
 	// opacity: 1;
 }
 
@@ -110,10 +110,11 @@
 	#cta{
 		@include pos(32, 44);
 		background-color: black;
+		// border: 1px solid red;
 		color: white;
-		letter-spacing: 2.5px;		
-		font-size: 18px;
-		padding: 4px 20px;
+		letter-spacing: 3.3px;		
+		font-size: 17px;
+		padding: 4px 24px;
 		padding-top: 7px;
 		font-family: bold;
 	}
