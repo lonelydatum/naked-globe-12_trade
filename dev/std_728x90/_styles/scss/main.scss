@@ -4,7 +4,7 @@
 
 
 
-.frame5 {
+.frame4 {
 	// opacity: 1;
 }
 
@@ -69,19 +69,20 @@
 .frame4{
 	.t4{
 		
-		font-family: reg;		
-		text-align: center;
-		line-height: 21px;
-		font-size: 15px;
-		letter-spacing: 2.3px;
+		// font-family: reg;		
+		// text-align: center;
+		// line-height: 21px;
+		// font-size: 15px;
+		// letter-spacing: 2.3px;
+		transform-origin: 0 0;
 		&.a{
-			@include pos(8,37);
+			@include pos-scale(9,41, .5);
 		}
 		&.b{
-			@include pos(267,37);
+			@include pos-scale(266, 41, .5);
 		}
 		&.c{
-			@include pos(465,37);
+			@include pos-scale(466, 41, .5);
 		}
 		
 	}
@@ -95,7 +96,7 @@
 		
 	}
 	.dot.dot1{
-		@include pos(254, 45);
+		@include pos(253, 45);
 	}
 
 	.dot.dot2{

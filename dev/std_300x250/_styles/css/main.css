@@ -295,19 +295,10 @@ sup {
   width: 112px;
 }
 
-.frame4 .t4 {
-  font-family: reg;
-  width: 122px;
-  text-align: center;
-  line-height: 21px;
-  font-size: 20px;
-  letter-spacing: 2.7px;
-}
-
 .frame4 .t4.a {
-  -webkit-transform: translate(0px, 16px);
-  -ms-transform: translate(0px, 16px);
-  transform: translate(0px, 16px);
+  -webkit-transform: translate(0px, 19px);
+  -ms-transform: translate(0px, 19px);
+  transform: translate(0px, 19px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -317,9 +308,9 @@ sup {
 }
 
 .frame4 .t4.b {
-  -webkit-transform: translate(0px, 103px);
-  -ms-transform: translate(0px, 103px);
-  transform: translate(0px, 103px);
+  -webkit-transform: translate(0px, 106px);
+  -ms-transform: translate(0px, 106px);
+  transform: translate(0px, 106px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -329,9 +320,9 @@ sup {
 }
 
 .frame4 .t4.c {
-  -webkit-transform: translate(0px, 167px);
-  -ms-transform: translate(0px, 167px);
-  transform: translate(0px, 167px);
+  -webkit-transform: translate(0px, 170px);
+  -ms-transform: translate(0px, 170px);
+  transform: translate(0px, 170px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

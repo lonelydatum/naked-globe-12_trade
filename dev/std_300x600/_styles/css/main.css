@@ -294,18 +294,15 @@ sup {
 }
 
 .frame4 .t4 {
-  font-family: reg;
-  width: 222px;
-  text-align: center;
-  line-height: 30px;
-  font-size: 25px;
-  letter-spacing: 6.1px;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 
 .frame4 .t4.a {
-  -webkit-transform: translate(40px, 141px);
-  -ms-transform: translate(40px, 141px);
-  transform: translate(40px, 141px);
+  -webkit-transform: translate(0px, 144px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, 144px) scale(0.5, 0.5);
+  transform: translate(0px, 144px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -314,27 +311,25 @@ sup {
 }
 
 .frame4 .t4.b {
-  -webkit-transform: translate(22px, 263px);
-  -ms-transform: translate(22px, 263px);
-  transform: translate(22px, 263px);
+  -webkit-transform: translate(0px, 267px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, 267px) scale(0.5, 0.5);
+  transform: translate(0px, 267px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 260px;
 }
 
 .frame4 .t4.c {
-  -webkit-transform: translate(32px, 355px);
-  -ms-transform: translate(32px, 355px);
-  transform: translate(32px, 355px);
+  -webkit-transform: translate(0px, 359px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, 359px) scale(0.5, 0.5);
+  transform: translate(0px, 359px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 240px;
 }
 
 .frame4 .dot {
@@ -345,9 +340,9 @@ sup {
 }
 
 .frame4 .dot.dot1 {
-  -webkit-transform: translate(146px, 245px);
-  -ms-transform: translate(146px, 245px);
-  transform: translate(146px, 245px);
+  -webkit-transform: translate(146px, 243px);
+  -ms-transform: translate(146px, 243px);
+  transform: translate(146px, 243px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

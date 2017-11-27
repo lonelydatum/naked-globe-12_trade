@@ -1,6 +1,6 @@
 @import '../../../_common/styles/common.scss';
 
-.frame5 {
+.frame4 {
 	// opacity: 1;
 }
 
@@ -66,22 +66,22 @@
 
 .frame4{
 	.t4{		
-		font-family: reg;
-		width: 122px;
-		text-align: center;
-		line-height: 21px;
-		font-size: 20px;
-		letter-spacing: 2.7px;
+		// font-family: reg;
+		// width: 122px;
+		// text-align: center;
+		// line-height: 21px;
+		// font-size: 20px;
+		// letter-spacing: 2.7px;
 		&.a{
-			@include pos(0,16);
+			@include pos(0,19);
 			width: 100%;
 		}
 		&.b{
-			@include pos(0,103);
+			@include pos(0,106);
 			width: 100%;
 		}
 		&.c{
-			@include pos(0,167);
+			@include pos(0,170);
 			width: 100%;
 		}		
 	}

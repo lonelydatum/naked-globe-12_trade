@@ -82,24 +82,24 @@
 	$y:50;
 	.t4{
 		
-		font-family: reg;
-		width: 222px;
-		text-align: center;
-		line-height: 30px;
-		font-size: 25px;
-		letter-spacing: 6.1px;
+		// font-family: reg;
+		// width: 222px;
+		// text-align: center;
+		// line-height: 30px;
+		// font-size: 25px;
+		// letter-spacing: 6.1px;
 		// color: red;
+
+		transform-origin: 0 0;
 		
 		&.a{
-			@include pos(40,91+$y);
+			@include pos-scale(0,94+$y, .5);
 		}
 		&.b{
-			@include pos(22,213+$y);
-			width: 260px;
+			@include pos-scale(0,217+$y, .5);
 		}
 		&.c{
-			@include pos(32,305+$y);
-			width: 240px;
+			@include pos-scale(0,309+$y, .5);
 		}
 		
 	}
@@ -113,7 +113,7 @@
 		
 	}
 	.dot.dot1{
-		@include pos(146, 195+$y);
+		@include pos(146, 193+$y);
 	}
 
 	.dot.dot2{
