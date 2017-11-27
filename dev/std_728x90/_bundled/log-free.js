@@ -13,7 +13,7 @@ function start() {
     var time = arguments.length <= 0 || arguments[0] === undefined ? .6 : arguments[0];
 
     var tl = new TimelineMax();
-    tl.timeScale(1.2);
+    tl.timeScale(1.3);
     tl.add('f1');
     tl.set('.frame1', { opacity: 1 });
     tl.from('.t1.a', .3, { opacity: 0 });
@@ -40,9 +40,9 @@ function start() {
     tl.add('f4');
     tl.set('.frame4', { opacity: 1 });
     tl.from('.frame4 .t4.a', .3, { opacity: 0 });
-    tl.from(['.frame4 .t4.b', '.dot1'], .3, { opacity: 0 }, '+=2');
-    tl.from(['.frame4 .t4.c', '.dot2'], .3, { opacity: 0 }, '+=2');
-    tl.to('.frame4', .3, { opacity: 0 }, '+=2');
+    tl.from(['.frame4 .t4.b', '.dot1'], .3, { opacity: 0 }, '+=1.6');
+    tl.from(['.frame4 .t4.c', '.dot2'], .3, { opacity: 0 }, '+=1.6');
+    tl.to('.frame4', .3, { opacity: 0 }, '+=1.6');
 
     tl.add('f5');
     tl.set('.frame5', { opacity: 1 });
