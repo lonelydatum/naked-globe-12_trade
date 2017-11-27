@@ -4,6 +4,9 @@ const size = {w:banner.offsetWidth, h:banner.offsetHeight}
 TweenLite.defaultEase = Power2.easeInOut
 function start(time=.6){
     var tl = new TimelineMax()
+    tl.timeScale(1.2)
+    
+    
     tl.add('f1')
     tl.set('.frame1', {opacity:1})
     tl.from(['.t1.a', '.t1.b'], .3, {opacity:0})
@@ -47,6 +50,7 @@ function start(time=.6){
 
     tl.add('branding')
     tl.from('.branding', .4, {opacity:0, y:'+=20', ease:Power2.easeOut}, '+=.35')
+    
     
     // tl.gotoAndPlay('f2')
     

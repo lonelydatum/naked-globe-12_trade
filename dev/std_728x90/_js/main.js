@@ -6,6 +6,7 @@ TweenLite.defaultEase = Power2.easeInOut
 
 function start(time=.6){
     var tl = new TimelineMax()
+    tl.timeScale(1.2)
     tl.add('f1')
     tl.set('.frame1', {opacity:1})
     tl.from('.t1.a', .3, {opacity:0})

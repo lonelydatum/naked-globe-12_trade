@@ -13,6 +13,7 @@ function start() {
     var time = arguments.length <= 0 || arguments[0] === undefined ? .6 : arguments[0];
 
     var tl = new TimelineMax();
+    tl.timeScale(1.2);
     tl.add('f1');
     tl.set('.frame1', { opacity: 1 });
     tl.from('.t1.a', .3, { opacity: 0 });
