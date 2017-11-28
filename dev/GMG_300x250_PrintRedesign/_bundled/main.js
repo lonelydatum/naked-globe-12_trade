@@ -68,7 +68,7 @@ function start() {
     tl.add('branding');
     tl.from('.branding', .4, { opacity: 0, y: '+=20', ease: Power2.easeOut }, '+=.35');
 
-    tl.gotoAndPlay('f3');
+    // tl.gotoAndPlay('f3')
 }
 
 exports['default'] = start;
