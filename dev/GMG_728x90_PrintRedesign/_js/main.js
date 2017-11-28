@@ -33,9 +33,9 @@ function start(time=.6){
     tl.add('f4')
     tl.set('.frame4', {opacity:1})
     tl.from('.frame4 .t4.a', .3, {opacity:0})
-    tl.from(['.frame4 .t4.b', '.dot1'], .3, {opacity:0}, '+=1.4')
-    tl.from(['.frame4 .t4.c', '.dot2'], .3, {opacity:0}, '+=1.3')
-    tl.to('.frame4', .3, {opacity:0}, '+=1.5')
+    tl.from(['.frame4 .t4.b', '.dot1'], .5, {opacity:0}, '+=.1')
+    tl.from(['.frame4 .t4.c', '.dot2'], .5, {opacity:0}, '+=.1')
+    tl.to('.frame4', .3, {opacity:0}, '+=3.5')
     
     tl.add('f5')
     tl.set('.frame5', {opacity:1})
