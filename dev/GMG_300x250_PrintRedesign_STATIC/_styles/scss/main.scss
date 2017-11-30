@@ -1,0 +1,207 @@
+@import '../../../_common/styles/common.scss';
+
+.frame3 {
+	// opacity: 1;
+}
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 300px;
+	height: 250px;
+	color:black;
+	font-family: bold;
+}
+
+
+.t1{
+	font-size: 30px;
+	word-spacing: 1px;
+	letter-spacing: 5.6px;	
+	&.a{
+		@include pos(45, 52);
+	}
+	&.b{
+		@include pos(27, 87);
+	}
+	&.c{
+		@include pos(106, 121);
+	}
+	&.d{
+		@include pos(45, 155);
+	}
+}
+
+.t2{
+	font-family: reg;	
+	font-size: 30px;
+	word-spacing: 1px;
+	letter-spacing: 5.6px;
+	&.a{
+		@include pos(12, 93);		
+	}
+	&.b{
+		@include pos(63, 128);		
+	}
+}
+
+.frame3 {	
+	& > * {
+		// opacity:0;
+		.masker{
+			overflow: hidden;
+			background-color: #f9f9f8;
+		}
+	}
+	#desktop{
+		// opacity: 1;
+		// -170
+		@include pos(7, 20);		
+		.masker{
+			height: 150px;
+			width: 268px;		
+			background-color: #ffffff;	
+			@include pos(9, 10);			
+			.holder{
+				@include pos(-9, -10);				
+			}
+			#desktop-content1{
+				clip:rect(10px, 277px, 146px, 9px);
+				@include pos(0, 0);			
+			}
+			#desktop-content2{
+				clip: rect(207px, 247px, 327px, 17px);
+				@include pos(-14, -50);			
+			}	
+		}		
+	}
+	#phone{
+		// -288
+		@include pos(14, 20);				
+		.masker{
+			height: 190px;
+			width: 236px;			
+			@include pos(17, 68);			
+			.holder{
+				@include pos(-17, -68);
+			}
+			.content{
+				clip:rect(68px, 277px, 456px, 17px);
+				@include pos(0, 0);			
+			}			
+		}		
+	}
+
+	#tablet{
+		// -180
+		// opacity: 1;
+		@include pos(17, 30);				
+		.device{
+			// opacity: .6;
+		}
+		.masker{
+			height: 312px;
+			width: 233px;			
+			@include pos(15, 30);			
+			.holder{
+				@include pos(-15, -30);
+			}
+			.content{
+				clip:rect(30px, 249px, 456px, 15px);
+				@include pos(0, 0);			
+			}			
+		}		
+	}
+	
+	#news{
+		// opacity: 1;
+		@include pos(-20, -248);		
+		// width: 112px;
+	}
+}
+
+.frame4{
+	.t4{		
+		// font-family: reg;
+		// width: 122px;
+		// text-align: center;
+		// line-height: 21px;
+		// font-size: 20px;
+		// letter-spacing: 2.7px;
+		&.a{
+			@include pos(0,19);
+			width: 100%;
+		}
+		&.b{
+			@include pos(0,106);
+			width: 100%;
+		}
+		&.c{
+			@include pos(0,170);
+			width: 100%;
+		}		
+	}
+
+	.dot{
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background-color: red;
+	}
+	.dot.dot1{
+		@include pos(147, 88);
+	}
+
+	.dot.dot2{
+		@include pos(147, 154);
+	}
+}
+
+
+.frame5{
+	#logo{
+		width: 38px;
+		@include pos(214, 45);		
+	}
+	#cta{
+		@include pos(32, 44);
+		background-color: black;
+		// border: 1px solid red;
+		color: white;
+		letter-spacing: 3.3px;		
+		font-size: 17px;
+		padding: 4px 24px;
+		padding-top: 7px;
+		font-family: bold;
+	}
+	#tag{
+		@include pos(22, 77);
+		color: black;
+		font-size: 16px;
+		letter-spacing: 1.8px;
+		line-height: 16px;
+		width: 164px;
+		text-align: center;
+	}
+
+	#triangles{
+		@include pos(0, 151);		
+	}
+
+	.desktop{
+		@include pos(71, 162);		
+		width: 85px;
+	}
+	.phone{
+		@include pos(142, 204);		
+		width: 22px;
+	}
+	.tablet{
+		@include pos(59, 188);		
+		width: 37px;
+	}
+	.news{
+		@include pos(158, 133);		
+		width: 67px;
+	}
+}

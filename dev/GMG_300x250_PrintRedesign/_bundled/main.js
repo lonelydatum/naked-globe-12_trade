@@ -126,6 +126,7 @@ var size = { w: banner.offsetWidth, h: banner.offsetHeight };
 TweenLite.defaultEase = Power2.easeInOut;
 function start(products) {
     var time = arguments.length <= 1 || arguments[1] === undefined ? .6 : arguments[1];
+    var desktop_static = arguments.length <= 2 || arguments[2] === undefined ? false : arguments[2];
 
     var startTime = new Date();
     var tl = new TimelineMax({ onComplete: function onComplete() {
@@ -161,7 +162,12 @@ function start(products) {
         time: .5
     };
     tl.from('#desktop', inner.time, _extends({}, inner.props));
-    tl.to('#desktop .holder', 1.5, { y: -126 });
+    if (desktop_static) {
+        tl.to('#desktop .holder', 1.5, { y: "+=0" });
+    } else {
+        tl.to('#desktop .holder', 1.5, { y: -126 });
+    }
+
     tl.add('3a', "+=1");
     tl.to('#desktop', outter.time, _extends({}, outter.props), '3a');
     tl.from('#phone', inner.time, _extends({}, inner.props), '3a');

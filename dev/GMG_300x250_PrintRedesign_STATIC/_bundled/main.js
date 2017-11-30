@@ -101,7 +101,7 @@ doDesktop();
 doPhone();
 doTablet();
 
-(0, _commonJsGlobe2['default'])(_dataJs2['default'], .5);
+(0, _commonJsGlobe2['default'])(_dataJs2['default'], .5, true);
 
 },{"../../_common/js/globe":6,"./data.js":1}],5:[function(require,module,exports){
 'use strict';
@@ -131,7 +131,7 @@ function start(products) {
     var startTime = new Date();
     var tl = new TimelineMax({ onComplete: function onComplete() {
             var end = new Date();
-            void 0;
+            console.log(end - startTime);
         } });
     tl.timeScale(1.3);
 
