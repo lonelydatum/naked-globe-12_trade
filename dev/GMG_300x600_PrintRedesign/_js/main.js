@@ -17,7 +17,7 @@ function start(time=.6){
     tl.from('.t2', .3, {opacity:0}, '+=.2')
     tl.to('.frame2', .3, {opacity:0}, '+=2')
 
-    const medium = .3
+    const medium = .5
     tl.add('f3')
     tl.set('.frame3', {opacity:1})
     tl.from('.frame3 .desktop', .5, {opacity:0, x:"-=80", ease:Power2.easeOut})
@@ -51,7 +51,7 @@ function start(time=.6){
     tl.from('.branding', .4, {opacity:0, y:'+=20', ease:Power2.easeOut}, '+=.35')
     
     
-    // tl.gotoAndPlay('f4')
+    // tl.gotoAndPlay('f3')
     
 }
 

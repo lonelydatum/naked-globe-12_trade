@@ -24,7 +24,7 @@ function start() {
     tl.from('.t2', .3, { opacity: 0 }, '+=.2');
     tl.to('.frame2', .3, { opacity: 0 }, '+=2');
 
-    var medium = .3;
+    var medium = .5;
     tl.add('f3');
     tl.set('.frame3', { opacity: 1 });
     tl.from('.frame3 .desktop', .5, { opacity: 0, x: "-=80", ease: Power2.easeOut });
@@ -56,7 +56,7 @@ function start() {
     tl.add('branding');
     tl.from('.branding', .4, { opacity: 0, y: '+=20', ease: Power2.easeOut }, '+=.35');
 
-    // tl.gotoAndPlay('f4')
+    // tl.gotoAndPlay('f3')
 }
 
 start();

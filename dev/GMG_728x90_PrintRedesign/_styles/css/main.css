@@ -89,6 +89,7 @@ canvas {
   background-color: white;
   -webkit-text-size-adjust: 100%;
   opacity: 1;
+  cursor: pointer;
   text-transform: uppercase;
 }
 
