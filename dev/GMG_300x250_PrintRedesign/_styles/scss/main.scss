@@ -86,7 +86,7 @@
 				@include pos(-17, -68);
 			}
 			.content{
-				clip:rect(67px, 277px, 456px, 17px);
+				clip:rect(68px, 277px, 456px, 17px);
 				@include pos(0, 0);			
 			}			
 		}		
@@ -102,12 +102,12 @@
 		.masker{
 			height: 312px;
 			width: 233px;			
-			@include pos(15, 31);			
+			@include pos(15, 30);			
 			.holder{
-				@include pos(-15, -31);
+				@include pos(-15, -30);
 			}
 			.content{
-				clip:rect(31px, 249px, 456px, 15px);
+				clip:rect(30px, 249px, 456px, 15px);
 				@include pos(0, 0);			
 			}			
 		}		

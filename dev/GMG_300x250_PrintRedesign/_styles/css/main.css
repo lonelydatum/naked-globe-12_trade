@@ -348,7 +348,7 @@ sup {
 }
 
 .frame3 #phone .masker .content {
-  clip: rect(67px, 277px, 456px, 17px);
+  clip: rect(68px, 277px, 456px, 17px);
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
@@ -373,9 +373,9 @@ sup {
 .frame3 #tablet .masker {
   height: 312px;
   width: 233px;
-  -webkit-transform: translate(15px, 31px);
-  -ms-transform: translate(15px, 31px);
-  transform: translate(15px, 31px);
+  -webkit-transform: translate(15px, 30px);
+  -ms-transform: translate(15px, 30px);
+  transform: translate(15px, 30px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -384,9 +384,9 @@ sup {
 }
 
 .frame3 #tablet .masker .holder {
-  -webkit-transform: translate(-15px, -31px);
-  -ms-transform: translate(-15px, -31px);
-  transform: translate(-15px, -31px);
+  -webkit-transform: translate(-15px, -30px);
+  -ms-transform: translate(-15px, -30px);
+  transform: translate(-15px, -30px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -395,7 +395,7 @@ sup {
 }
 
 .frame3 #tablet .masker .content {
-  clip: rect(31px, 249px, 456px, 15px);
+  clip: rect(30px, 249px, 456px, 15px);
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
