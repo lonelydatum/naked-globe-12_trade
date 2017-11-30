@@ -46,25 +46,32 @@
 }
 
 .frame3 {	
+	& > * {
+		// opacity:0;
+		.masker{
+			overflow: hidden;
+			background-color: #f9f9f8;
+		}
+	}
 	#desktop{
+		// opacity: 1;
 		// -170
 		@include pos(7, 20);		
 		.masker{
 			height: 150px;
-			width: 268px;
-			overflow: hidden;
-			@include pos(9, 10);
-			background-color: #f9f9f8;
+			width: 268px;		
+			background-color: #ffffff;	
+			@include pos(9, 10);			
 			.holder{
 				@include pos(-9, -10);				
 			}
 			#desktop-content1{
-				clip:rect(10px, 277px, 160px, 9px);
+				clip:rect(10px, 277px, 146px, 9px);
 				@include pos(0, 0);			
 			}
 			#desktop-content2{
-				clip:rect(54px, 277px, 160px, 9px);
-				@include pos(0, 120);			
+				clip: rect(207px, 247px, 327px, 17px);
+				@include pos(-14, -50);			
 			}	
 		}		
 	}
@@ -73,10 +80,8 @@
 		@include pos(14, 20);				
 		.masker{
 			height: 190px;
-			width: 236px;
-			overflow: hidden;
-			@include pos(17, 68);
-			background-color: #f9f9f8;
+			width: 236px;			
+			@include pos(17, 68);			
 			.holder{
 				@include pos(-17, -68);
 			}
@@ -89,16 +94,15 @@
 
 	#tablet{
 		// -180
-		@include pos(17, 70);				
+		// opacity: 1;
+		@include pos(17, 30);				
 		.device{
 			// opacity: .6;
 		}
 		.masker{
 			height: 312px;
-			width: 233px;
-			overflow: hidden;
-			@include pos(15, 31);
-			background-color: #f9f9f8;
+			width: 233px;			
+			@include pos(15, 31);			
 			.holder{
 				@include pos(-15, -31);
 			}
@@ -110,7 +114,8 @@
 	}
 	
 	#news{
-		@include pos(-20, 172);		
+		// opacity: 1;
+		@include pos(-20, -248);		
 		// width: 112px;
 	}
 }

@@ -39,7 +39,7 @@ function start(products, time=.6){
         time: .5
     }
     tl.from('#desktop', inner.time, {...inner.props})
-    tl.to('#desktop .holder', 1.5, {y:-170})
+    tl.to('#desktop .holder', 1.5, {y:-126})
     tl.add('3a', "+=1")
     tl.to('#desktop', outter.time, {...outter.props}, '3a')
     tl.from('#phone', inner.time, {...inner.props}, '3a')
@@ -48,10 +48,10 @@ function start(products, time=.6){
     tl.add('3b', "+=1")
     tl.to('#phone', outter.time, {...outter.props}, '3b')
     tl.from('#tablet', inner.time, {...inner.props}, '3b')
-    tl.to('#tablet .holder', 2, {y:-180})
+    tl.to('#tablet .holder', 2, {y:-139})
     tl.to('#tablet', outter.time, {...outter.props}, '+=1')
     tl.from('#news', inner.time, {opacity:0})
-    tl.to('#news', 2.5, {y:-248})
+    tl.to('#news', 2.5, {y:12})
     tl.to('#news', inner.time, {opacity:0}, '+=.5')
     
 

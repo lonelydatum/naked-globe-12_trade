@@ -11,7 +11,7 @@ function doDesktop(){
     const domContent2 = document.getElementById('desktop-content2')
     domDevice.src = data.desktop.data
     domContent1.src = data.desktop.data
-    domContent2.src = data.desktop.data
+    domContent2.src = data.tablet.data
 }
 
 
