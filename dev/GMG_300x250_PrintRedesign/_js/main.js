@@ -38,4 +38,4 @@ doPhone()
 doTablet()
 
 
-globe(data, .5)
+globe(data, .5, true)

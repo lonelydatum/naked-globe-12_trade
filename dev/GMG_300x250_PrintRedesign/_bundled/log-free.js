@@ -101,7 +101,7 @@ doDesktop();
 doPhone();
 doTablet();
 
-(0, _commonJsGlobe2['default'])(_dataJs2['default'], .5);
+(0, _commonJsGlobe2['default'])(_dataJs2['default'], .5, true);
 
 },{"../../_common/js/globe":6,"./data.js":1}],5:[function(require,module,exports){
 'use strict';
