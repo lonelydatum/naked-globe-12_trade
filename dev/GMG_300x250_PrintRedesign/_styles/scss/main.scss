@@ -1,6 +1,6 @@
 @import '../../../_common/styles/common.scss';
 
-.frame4 {
+.frame3 {
 	// opacity: 1;
 }
 
@@ -47,20 +47,20 @@
 
 .frame3 {	
 	.desktop{
-		@include pos(59, 31);		
-		width: 192px;
+		@include pos(7, -129);		
+		// width: 192px;
 	}
 	.phone{
-		@include pos(93, 20);		
-		width: 109px;
+		@include pos(14, 140);		
+		// width: 109px;
 	}
 	.tablet{
-		@include pos(96, 12);		
-		width: 124px;
+		@include pos(19, -298);		
+		// width: 124px;
 	}
 	.news{
-		@include pos(91, 12);		
-		width: 112px;
+		@include pos(-20, 172);		
+		// width: 112px;
 	}
 }
 

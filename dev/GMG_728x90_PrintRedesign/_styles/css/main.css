@@ -215,51 +215,47 @@ sup {
 }
 
 .frame3 .desktop {
-  -webkit-transform: translate(96px, 5px);
-  -ms-transform: translate(96px, 5px);
-  transform: translate(96px, 5px);
+  -webkit-transform: translate(49px, 90px);
+  -ms-transform: translate(49px, 90px);
+  transform: translate(49px, 90px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 86px;
 }
 
 .frame3 .phone {
-  -webkit-transform: translate(248px, 10px);
-  -ms-transform: translate(248px, 10px);
-  transform: translate(248px, 10px);
+  -webkit-transform: translate(480px, -443px);
+  -ms-transform: translate(480px, -443px);
+  transform: translate(480px, -443px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 40px;
 }
 
 .frame3 .tablet {
-  -webkit-transform: translate(382px, 12px);
-  -ms-transform: translate(382px, 12px);
-  transform: translate(382px, 12px);
+  -webkit-transform: translate(30px, -333px);
+  -ms-transform: translate(30px, -333px);
+  transform: translate(30px, -333px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 41px;
 }
 
 .frame3 .news {
-  -webkit-transform: translate(515px, 2px);
-  -ms-transform: translate(515px, 2px);
-  transform: translate(515px, 2px);
+  -webkit-transform: translate(279px, 90px);
+  -ms-transform: translate(279px, 90px);
+  transform: translate(279px, 90px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  width: 98px;
 }
 
 .frame4 .t4 {

@@ -9,8 +9,8 @@ var banner = document.querySelector("#banner");
 var size = { w: banner.offsetWidth, h: banner.offsetHeight };
 TweenLite.defaultEase = Power2.easeInOut;
 
-function start() {
-    var time = arguments.length <= 0 || arguments[0] === undefined ? .6 : arguments[0];
+function start(products) {
+    var time = arguments.length <= 1 || arguments[1] === undefined ? .6 : arguments[1];
 
     var tl = new TimelineMax();
     tl.timeScale(1.3);
@@ -28,13 +28,15 @@ function start() {
     var medium = .3;
     tl.add('f3');
     tl.set('.frame3', { opacity: 1 });
-    tl.from('.frame3 .desktop', .3, { opacity: 0 });
-    // tl.to('.frame3 .desktop', .2, {opacity:0}, `+=${medium}`)
-    tl.from('.frame3 .phone', .3, { opacity: 0 });
-    // tl.to('.frame3 .phone', .2, {opacity:0}, `+=${medium}`)
-    tl.from('.frame3 .tablet', .3, { opacity: 0 });
-    // tl.to('.frame3 .tablet', .2, {opacity:0}, `+=${medium}`)
-    tl.from('.frame3 .news', .3, { opacity: 0 });
+    tl.add('product1');
+    tl.to('.frame3 .desktop', 3, { y: products.desktop, ease: Sine.easeInOut }, 'product1');
+    tl.to('.frame3 .phone', 3, { y: products.phone, ease: Sine.easeInOut }, 'product1');
+    tl.to(['.frame3 .desktop', '.frame3 .phone'], .3, { opacity: 0 }, '+=.3');
+
+    tl.add('product2');
+    tl.to('.frame3 .tablet', 3, { y: products.tablet, ease: Sine.easeInOut }, 'product2');
+    tl.to('.frame3 .news', 3, { y: products.news, ease: Sine.easeInOut }, 'product2');
+    tl.to(['.frame3 .tablet', '.frame3 .news'], .3, { opacity: 0 }, '+=.3');
     tl.to('.frame3', .4, { opacity: 0 }, '+=1');
 
     tl.add('f4');
@@ -60,7 +62,12 @@ function start() {
     // tl.gotoAndPlay('f3')
 }
 
-start();
+start({
+    desktop: -160,
+    phone: 7,
+    tablet: 11,
+    news: -260
+});
 
 exports['default'] = start;
 module.exports = exports['default'];

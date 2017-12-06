@@ -4,7 +4,7 @@
 
 
 
-.frame4 {
+.frame3 {
 	// opacity: 1;
 }
 
@@ -48,20 +48,20 @@
 
 .frame3 {	
 	.desktop{
-		@include pos(96, 5);		
-		width: 86px;
+		@include pos(49, 90);		
+		// width: 86px;
 	}
 	.phone{
-		@include pos(248, 10);		
-		width: 40px;
+		@include pos(480, -443);		
+		// width: 40px;
 	}
 	.tablet{
-		@include pos(382, 12);		
-		width: 41px;
+		@include pos(30, -333);		
+		
 	}
 	.news{
-		@include pos(515, 2);		
-		width: 98px;
+		@include pos(279, 90);		
+		
 	}
 }
 

@@ -7,7 +7,14 @@ var _commonJsGlobe = require('../../_common/js/globe');
 
 var _commonJsGlobe2 = _interopRequireDefault(_commonJsGlobe);
 
-(0, _commonJsGlobe2['default'])(.5);
+var data = {
+    desktop: 181,
+    phone: -360,
+    tablet: 162,
+    news: -278
+};
+
+(0, _commonJsGlobe2['default'])(data, .5);
 
 },{"../../_common/js/globe":2}],2:[function(require,module,exports){
 'use strict';
@@ -19,8 +26,8 @@ Object.defineProperty(exports, '__esModule', {
 var banner = document.querySelector("#banner");
 var size = { w: banner.offsetWidth, h: banner.offsetHeight };
 TweenLite.defaultEase = Power2.easeInOut;
-function start() {
-    var time = arguments.length <= 0 || arguments[0] === undefined ? .6 : arguments[0];
+function start(products) {
+    var time = arguments.length <= 1 || arguments[1] === undefined ? .6 : arguments[1];
 
     var tl = new TimelineMax();
     tl.timeScale(1.3);
@@ -39,14 +46,8 @@ function start() {
     var medium = .3;
     tl.add('f3');
     tl.set('.frame3', { opacity: 1 });
-    tl.from('.frame3 .desktop', .5, { opacity: 0, x: "-=80", ease: Power2.easeOut });
-    tl.to('.frame3 .desktop', .2, { opacity: 0 }, '+=' + (medium + .15));
-    tl.from('.frame3 .phone', .3, { opacity: 0 });
-    tl.to('.frame3 .phone', .2, { opacity: 0 }, '+=' + medium);
-    tl.from('.frame3 .tablet', .3, { opacity: 0 });
-    tl.to('.frame3 .tablet', .2, { opacity: 0 }, '+=' + medium);
-    tl.from('.frame3 .news', .3, { opacity: 0 });
-    tl.to('.frame3 .news', .2, { opacity: 0 }, '+=' + medium);
+
+    items(tl, products);
 
     tl.add('f4');
     tl.set('.frame4', { opacity: 1 });
@@ -68,7 +69,17 @@ function start() {
     tl.add('branding');
     tl.from('.branding', .4, { opacity: 0, y: '+=20', ease: Power2.easeOut }, '+=.35');
 
-    // tl.gotoAndPlay('f4')
+    // tl.gotoAndPlay('f3')
+}
+
+function items(tl, list) {
+    for (var str in list) {
+        var item = list[str];
+        var _name = '.frame3 .' + str;
+        tl.from(_name, .2, { opacity: 0 });
+        tl.to(_name, 2.3, { y: item, ease: Sine.easeInOut });
+        tl.to(_name, .2, { opacity: 0 });
+    }
 }
 
 exports['default'] = start;
