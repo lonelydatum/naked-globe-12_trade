@@ -3,7 +3,12 @@ const banner = document.querySelector("#banner")
 const size = {w:banner.offsetWidth, h:banner.offsetHeight}
 TweenLite.defaultEase = Power2.easeInOut
 function start(products, time=.6){
-    var tl = new TimelineMax()
+    const startTime = new Date()
+    var tl = new TimelineMax({onComplete:()=>{
+        const end = new Date()
+        console.log(end-startTime);
+        
+    }})
     tl.timeScale(1.3)
     
     
@@ -56,7 +61,7 @@ function items(tl, list){
         const item = list[str]
         const name = `.frame3 .${str}`
         tl.from(name, .2, {opacity:0})    
-        tl.to(name, 2.3, {y:item, ease:Sine.easeInOut})    
+        tl.to(name, 3, {y:item, ease:Sine.easeInOut})    
         tl.to(name, .2, {opacity:0})    
     }
 }

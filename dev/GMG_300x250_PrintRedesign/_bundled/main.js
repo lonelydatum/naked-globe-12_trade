@@ -29,7 +29,11 @@ TweenLite.defaultEase = Power2.easeInOut;
 function start(products) {
     var time = arguments.length <= 1 || arguments[1] === undefined ? .6 : arguments[1];
 
-    var tl = new TimelineMax();
+    var startTime = new Date();
+    var tl = new TimelineMax({ onComplete: function onComplete() {
+            var end = new Date();
+            console.log(end - startTime);
+        } });
     tl.timeScale(1.3);
 
     tl.add('f1');
@@ -77,7 +81,7 @@ function items(tl, list) {
         var item = list[str];
         var _name = '.frame3 .' + str;
         tl.from(_name, .2, { opacity: 0 });
-        tl.to(_name, 2.3, { y: item, ease: Sine.easeInOut });
+        tl.to(_name, 3, { y: item, ease: Sine.easeInOut });
         tl.to(_name, .2, { opacity: 0 });
     }
 }
