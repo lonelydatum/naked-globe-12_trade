@@ -27,7 +27,32 @@ function start(products, time=.6){
     tl.add('f3')
     tl.set('.frame3', {opacity:1})
 
-    items(tl, products)
+    // items(tl, products)
+    
+    const inner = {
+        props: {opacity:0, x:-300, ease:Power1.easeOut},
+        time: .5
+    }
+
+    const outter = {
+        props: {opacity:0, x:300, ease:Power1.easeOut},
+        time: .5
+    }
+    tl.from('#desktop', inner.time, {...inner.props})
+    tl.to('#desktop .holder', 1.5, {y:-170})
+    tl.add('3a', "+=1")
+    tl.to('#desktop', outter.time, {...outter.props}, '3a')
+    tl.from('#phone', inner.time, {...inner.props}, '3a')
+    tl.to('#phone .holder', 2, {y:-288})
+
+    tl.add('3b', "+=1")
+    tl.to('#phone', outter.time, {...outter.props}, '3b')
+    tl.from('#tablet', inner.time, {...inner.props}, '3b')
+    tl.to('#tablet .holder', 2, {y:-180})
+    tl.to('#tablet', outter.time, {...outter.props}, '+=1')
+    tl.from('#news', inner.time, {opacity:0})
+    tl.to('#news', 2.5, {y:-248})
+    tl.to('#news', inner.time, {opacity:0}, '+=.5')
     
 
     tl.add('f4')

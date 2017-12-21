@@ -46,19 +46,70 @@
 }
 
 .frame3 {	
-	.desktop{
-		@include pos(7, -129);		
-		// width: 192px;
+	#desktop{
+		// -170
+		@include pos(7, 20);		
+		.masker{
+			height: 150px;
+			width: 268px;
+			overflow: hidden;
+			@include pos(9, 10);
+			background-color: #f9f9f8;
+			.holder{
+				@include pos(-9, -10);				
+			}
+			#desktop-content1{
+				clip:rect(10px, 277px, 160px, 9px);
+				@include pos(0, 0);			
+			}
+			#desktop-content2{
+				clip:rect(54px, 277px, 160px, 9px);
+				@include pos(0, 120);			
+			}	
+		}		
 	}
-	.phone{
-		@include pos(14, 140);		
-		// width: 109px;
+	#phone{
+		// -288
+		@include pos(14, 20);				
+		.masker{
+			height: 190px;
+			width: 236px;
+			overflow: hidden;
+			@include pos(17, 68);
+			background-color: #f9f9f8;
+			.holder{
+				@include pos(-17, -68);
+			}
+			.content{
+				clip:rect(67px, 277px, 456px, 17px);
+				@include pos(0, 0);			
+			}			
+		}		
 	}
-	.tablet{
-		@include pos(19, -298);		
-		// width: 124px;
+
+	#tablet{
+		// -180
+		@include pos(17, 70);				
+		.device{
+			// opacity: .6;
+		}
+		.masker{
+			height: 312px;
+			width: 233px;
+			overflow: hidden;
+			@include pos(15, 31);
+			background-color: #f9f9f8;
+			.holder{
+				@include pos(-15, -31);
+			}
+			.content{
+				clip:rect(31px, 249px, 456px, 15px);
+				@include pos(0, 0);			
+			}			
+		}		
 	}
-	.news{
+	
+	#news{
 		@include pos(-20, 172);		
 		// width: 112px;
 	}
